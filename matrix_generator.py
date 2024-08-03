@@ -14,6 +14,7 @@ def generate_matrix(a):
 
 #write the matrix by rows
 def show_matrix(a):
+    print()
     for rows in a:
         print(rows)
 
@@ -59,6 +60,7 @@ def det_four(a):
 
 #write code for LaTeX matrix - input is 3x3 matrix
 def latex_matrix(a):
+    print()
     print(r"\[")
     print(r"\begin{bmatrix}")
     print(f"{a[0][0]} & {a[0][1]} & {a[0][2]} \\\\")
@@ -69,6 +71,7 @@ def latex_matrix(a):
 
 #write code for LaTeX matrix - input is 4x4 matrix
 def latex_four(a):
+    print()
     print(r"\[")
     print(r"\begin{bmatrix}")
     print(f"{a[0][0]} & {a[0][1]} & {a[0][2]} & {a[0][3]} \\\\")
